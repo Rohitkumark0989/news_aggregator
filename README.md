@@ -117,7 +117,7 @@ Article::factory()->count(20)->create();  // Create 20 articles
 The API documentation is available via Swagger UI and is automatically generated. You can access it at:
 
 ```
-http://localhost:8000/api/documentation
+http://localhost:8080/api/documentation
 ```
 
 Swagger provides detailed information about each API endpoint, including parameters, responses, and request types.
