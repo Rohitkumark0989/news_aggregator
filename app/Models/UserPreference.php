@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class UserPreference extends Model
 {
     use HasFactory;
+    
     protected $fillable = ['user_id', 'sources', 'categories', 'authors'];
 
     // Specify that these fields are JSON
